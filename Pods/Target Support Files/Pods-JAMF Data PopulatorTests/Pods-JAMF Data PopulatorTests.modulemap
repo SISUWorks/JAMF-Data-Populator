@@ -1,0 +1,6 @@
+framework module Pods_JAMF_Data_PopulatorTests {
+  umbrella header "Pods-JAMF Data PopulatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
