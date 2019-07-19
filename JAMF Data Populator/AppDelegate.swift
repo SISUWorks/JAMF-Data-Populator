@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  JAMF Data Populator
 //
-//  Created by Jeremy Matthews on 4/20/19.
+//  Created by SISU Works on 4/20/19.
 //  Copyright © 2019 SISU Works. All rights reserved.
 //
 

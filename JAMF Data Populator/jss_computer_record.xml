@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer>
+    <general>
+        <udid>udid_string</udid>
+        <name>comp_name_string</name>
+	    <ip_address>ip_string</ip_address>
+   	 	<serial_number>serial_string</serial_number>
+    	<jamf_version>jamf_string</jamf_version>
+    	<platform>platform_string</platform>
+    	<mdm_capable>mdm_capable_string</mdm_capable>
+        <last_contact_time>mac_last_contact</last_contact_time>
+    </general>
+    <hardware>
+    <make>make_string</make>
+    <model>model_string</model>
+    <model_identifier>model_id_string</model_identifier>
+    <os_name>os_name_string</os_name>
+    <os_version>os_version_string</os_version>
+    <os_build>os_build_string</os_build>
+    <active_directory_status>ad_string</active_directory_status>
+    <processor_type>proc_type_string</processor_type>
+    <processor_architecture>i386</processor_architecture>
+    <processor_speed>proc_speed_string</processor_speed>
+    <processor_speed_mhz>proc_speed_mhz_string</processor_speed_mhz>
+    <number_processors>number_of_procs_string</number_processors>
+    <total_ram>total_ram_string</total_ram>
+    <total_ram_mb>total_ram_mb_string</total_ram_mb>
+  </hardware>
+</computer>

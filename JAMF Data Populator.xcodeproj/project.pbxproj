@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C18F348226E2F62009196C7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C18F347226E2F62009196C7 /* Alamofire.framework */; };
+		3C18F34A226F51B4009196C7 /* MachineObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C18F349226F51B4009196C7 /* MachineObject.swift */; };
+		3C23B9502279EDA20089564B /* jss_computer_record.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C23B94F2279EDA20089564B /* jss_computer_record.xml */; };
 		3CD5DE0B226BE18A00E94983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5DE0A226BE18A00E94983 /* AppDelegate.swift */; };
 		3CD5DE0D226BE18A00E94983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5DE0C226BE18A00E94983 /* ViewController.swift */; };
 		3CD5DE0F226BE18F00E94983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5DE0E226BE18F00E94983 /* Assets.xcassets */; };
 		3CD5DE12226BE18F00E94983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD5DE10226BE18F00E94983 /* Main.storyboard */; };
 		3CD5DE1E226BE18F00E94983 /* JAMF_Data_PopulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5DE1D226BE18F00E94983 /* JAMF_Data_PopulatorTests.swift */; };
 		3CD5DE29226BE18F00E94983 /* JAMF_Data_PopulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD5DE28226BE18F00E94983 /* JAMF_Data_PopulatorUITests.swift */; };
+		AD99B21305C26463ABEECE41 /* Pods_JAMF_Data_PopulatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74040C012C9C8E6510888D0 /* Pods_JAMF_Data_PopulatorUITests.framework */; };
+		AFB41AE5D7EBD2BB7467CBF2 /* Pods_JAMF_Data_PopulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6804983D40201363892F9F3F /* Pods_JAMF_Data_PopulatorTests.framework */; };
+		EBF954E4CBA725343388A859 /* Pods_JAMF_Data_Populator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0D3E0D6BCF6CB026417469 /* Pods_JAMF_Data_Populator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0D3E0D6BCF6CB026417469 /* Pods_JAMF_Data_Populator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAMF_Data_Populator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C18F347226E2F62009196C7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C18F349226F51B4009196C7 /* MachineObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineObject.swift; sourceTree = "<group>"; };
+		3C23B94F2279EDA20089564B /* jss_computer_record.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = jss_computer_record.xml; sourceTree = "<group>"; };
+		3C23B951227A2C3D0089564B /* JAMF Data Populator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JAMF Data Populator.entitlements"; sourceTree = "<group>"; };
 		3CD5DE07226BE18A00E94983 /* JAMF Data Populator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JAMF Data Populator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD5DE0A226BE18A00E94983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD5DE0C226BE18A00E94983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +57,14 @@
 		3CD5DE24226BE18F00E94983 /* JAMF Data PopulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JAMF Data PopulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD5DE28226BE18F00E94983 /* JAMF_Data_PopulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAMF_Data_PopulatorUITests.swift; sourceTree = "<group>"; };
 		3CD5DE2A226BE18F00E94983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52270CF95A302A2D837FE8B9 /* Pods-JAMF Data PopulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data PopulatorUITests.release.xcconfig"; path = "Target Support Files/Pods-JAMF Data PopulatorUITests/Pods-JAMF Data PopulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		58F903B50DCB615A78FCE50F /* Pods-JAMF Data PopulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data PopulatorTests.release.xcconfig"; path = "Target Support Files/Pods-JAMF Data PopulatorTests/Pods-JAMF Data PopulatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6804983D40201363892F9F3F /* Pods_JAMF_Data_PopulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAMF_Data_PopulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81A89B52C87407381DD64666 /* Pods-JAMF Data Populator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data Populator.debug.xcconfig"; path = "Target Support Files/Pods-JAMF Data Populator/Pods-JAMF Data Populator.debug.xcconfig"; sourceTree = "<group>"; };
+		B451C5B68F4DE80D37A83009 /* Pods-JAMF Data Populator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data Populator.release.xcconfig"; path = "Target Support Files/Pods-JAMF Data Populator/Pods-JAMF Data Populator.release.xcconfig"; sourceTree = "<group>"; };
+		BC682B897D36AC89389F0B93 /* Pods-JAMF Data PopulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data PopulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-JAMF Data PopulatorTests/Pods-JAMF Data PopulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D74040C012C9C8E6510888D0 /* Pods_JAMF_Data_PopulatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAMF_Data_PopulatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02D8287E42A4A57B929BE4B /* Pods-JAMF Data PopulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAMF Data PopulatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-JAMF Data PopulatorUITests/Pods-JAMF Data PopulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C18F348226E2F62009196C7 /* Alamofire.framework in Frameworks */,
+				EBF954E4CBA725343388A859 /* Pods_JAMF_Data_Populator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB41AE5D7EBD2BB7467CBF2 /* Pods_JAMF_Data_PopulatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD99B21305C26463ABEECE41 /* Pods_JAMF_Data_PopulatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +103,8 @@
 				3CD5DE1C226BE18F00E94983 /* JAMF Data PopulatorTests */,
 				3CD5DE27226BE18F00E94983 /* JAMF Data PopulatorUITests */,
 				3CD5DE08226BE18A00E94983 /* Products */,
+				D948926FC768B4393455C268 /* Pods */,
+				E907AC40072571FAF644620E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +121,11 @@
 		3CD5DE09226BE18A00E94983 /* JAMF Data Populator */ = {
 			isa = PBXGroup;
 			children = (
+				3C23B951227A2C3D0089564B /* JAMF Data Populator.entitlements */,
+				3C23B94F2279EDA20089564B /* jss_computer_record.xml */,
 				3CD5DE0A226BE18A00E94983 /* AppDelegate.swift */,
 				3CD5DE0C226BE18A00E94983 /* ViewController.swift */,
+				3C18F349226F51B4009196C7 /* MachineObject.swift */,
 				3CD5DE0E226BE18F00E94983 /* Assets.xcassets */,
 				3CD5DE10226BE18F00E94983 /* Main.storyboard */,
 				3CD5DE13226BE18F00E94983 /* Info.plist */,
@@ -124,6 +152,30 @@
 			path = "JAMF Data PopulatorUITests";
 			sourceTree = "<group>";
 		};
+		D948926FC768B4393455C268 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81A89B52C87407381DD64666 /* Pods-JAMF Data Populator.debug.xcconfig */,
+				B451C5B68F4DE80D37A83009 /* Pods-JAMF Data Populator.release.xcconfig */,
+				BC682B897D36AC89389F0B93 /* Pods-JAMF Data PopulatorTests.debug.xcconfig */,
+				58F903B50DCB615A78FCE50F /* Pods-JAMF Data PopulatorTests.release.xcconfig */,
+				E02D8287E42A4A57B929BE4B /* Pods-JAMF Data PopulatorUITests.debug.xcconfig */,
+				52270CF95A302A2D837FE8B9 /* Pods-JAMF Data PopulatorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E907AC40072571FAF644620E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C18F347226E2F62009196C7 /* Alamofire.framework */,
+				1B0D3E0D6BCF6CB026417469 /* Pods_JAMF_Data_Populator.framework */,
+				6804983D40201363892F9F3F /* Pods_JAMF_Data_PopulatorTests.framework */,
+				D74040C012C9C8E6510888D0 /* Pods_JAMF_Data_PopulatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CD5DE2D226BE18F00E94983 /* Build configuration list for PBXNativeTarget "JAMF Data Populator" */;
 			buildPhases = (
+				96167A715BD2C366A6DDA4FF /* [CP] Check Pods Manifest.lock */,
 				3CD5DE03226BE18A00E94983 /* Sources */,
 				3CD5DE04226BE18A00E94983 /* Frameworks */,
 				3CD5DE05226BE18A00E94983 /* Resources */,
+				F500B4461B96177C16CFA4DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CD5DE30226BE18F00E94983 /* Build configuration list for PBXNativeTarget "JAMF Data PopulatorTests" */;
 			buildPhases = (
+				C1D4663CE542FFEDD9ECCAA8 /* [CP] Check Pods Manifest.lock */,
 				3CD5DE15226BE18F00E94983 /* Sources */,
 				3CD5DE16226BE18F00E94983 /* Frameworks */,
 				3CD5DE17226BE18F00E94983 /* Resources */,
@@ -166,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CD5DE33226BE18F00E94983 /* Build configuration list for PBXNativeTarget "JAMF Data PopulatorUITests" */;
 			buildPhases = (
+				C367F919DDDC9A6FE9C6F99B /* [CP] Check Pods Manifest.lock */,
 				3CD5DE20226BE18F00E94983 /* Sources */,
 				3CD5DE21226BE18F00E94983 /* Frameworks */,
 				3CD5DE22226BE18F00E94983 /* Resources */,
@@ -192,6 +248,11 @@
 				TargetAttributes = {
 					3CD5DE06226BE18A00E94983 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					3CD5DE18226BE18F00E94983 = {
 						CreatedOnToolsVersion = 10.2;
@@ -230,6 +291,7 @@
 			files = (
 				3CD5DE0F226BE18F00E94983 /* Assets.xcassets in Resources */,
 				3CD5DE12226BE18F00E94983 /* Main.storyboard in Resources */,
+				3C23B9502279EDA20089564B /* jss_computer_record.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +311,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96167A715BD2C366A6DDA4FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAMF Data Populator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D4663CE542FFEDD9ECCAA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAMF Data PopulatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C367F919DDDC9A6FE9C6F99B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAMF Data PopulatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F500B4461B96177C16CFA4DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JAMF Data Populator/Pods-JAMF Data Populator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JAMF Data Populator/Pods-JAMF Data Populator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CD5DE03226BE18A00E94983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CD5DE0D226BE18A00E94983 /* ViewController.swift in Sources */,
+				3C18F34A226F51B4009196C7 /* MachineObject.swift in Sources */,
 				3CD5DE0B226BE18A00E94983 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,42 +573,53 @@
 		};
 		3CD5DE2E226BE18F00E94983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A89B52C87407381DD64666 /* Pods-JAMF Data Populator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "JAMF Data Populator/JAMF_Data_Populator.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "JAMF Data Populator/JAMF Data Populator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VKTHT9TR6;
 				INFOPLIST_FILE = "JAMF Data Populator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sisuworks.JAMF-Data-Populator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		3CD5DE2F226BE18F00E94983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B451C5B68F4DE80D37A83009 /* Pods-JAMF Data Populator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "JAMF Data Populator/JAMF_Data_Populator.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "JAMF Data Populator/JAMF Data Populator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3VKTHT9TR6;
 				INFOPLIST_FILE = "JAMF Data Populator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sisuworks.JAMF-Data-Populator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		3CD5DE31226BE18F00E94983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC682B897D36AC89389F0B93 /* Pods-JAMF Data PopulatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +640,7 @@
 		};
 		3CD5DE32226BE18F00E94983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F903B50DCB615A78FCE50F /* Pods-JAMF Data PopulatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +661,7 @@
 		};
 		3CD5DE34226BE18F00E94983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02D8287E42A4A57B929BE4B /* Pods-JAMF Data PopulatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +681,7 @@
 		};
 		3CD5DE35226BE18F00E94983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52270CF95A302A2D837FE8B9 /* Pods-JAMF Data PopulatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
